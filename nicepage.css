@@ -34060,7 +34060,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  margin: 70px auto 0 0;
+  margin: 50px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -34069,7 +34069,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -55px 0 0 auto;
+  margin: -50px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -34084,7 +34084,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   font-weight: 700;
   font-size: 1.5rem;
-  margin: -31px 880px 0 74px;
+  margin: -37px 880px 0 74px;
 }
 
 .u-header .u-btn-1 {
@@ -34093,36 +34093,47 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-text-2 {
-  margin: -25px 376px 0 414px;
+  margin: -31px 379px 0 411px;
+}
+
+.u-header .u-btn-2 {
+  background-image: none;
+  padding: 0;
 }
 
 .u-header .u-line-1 {
   width: 1120px;
   height: 3px;
   transform-origin: left center 0px;
-  margin: 30px auto 10px;
+  margin: 30px auto 37px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 150px;
+  }
+
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -55px;
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -31px;
     margin-right: 682px;
     margin-left: 72px;
   }
 
   .u-header .u-text-2 {
     width: 350px;
+    margin-top: -31px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .u-header .u-line-1 {
-    width: 940px;
+    margin-top: 9px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
 @media (max-width: 991px) {
@@ -34135,10 +34146,6 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 534px;
     margin-left: 0;
   }
-
-  .u-header .u-line-1 {
-    width: 720px;
-  }
 }
 @media (max-width: 767px) {
   .u-header .u-image-1 {
@@ -34148,10 +34155,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-text-1 {
     margin-right: 354px;
   }
-
-  .u-header .u-line-1 {
-    width: 540px;
-  }
 }
 @media (max-width: 575px) {
   .u-header .u-text-1 {
@@ -34159,10 +34162,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-2 {
-    width: 340px;
-  }
-
-  .u-header .u-line-1 {
     width: 340px;
   }
 }
